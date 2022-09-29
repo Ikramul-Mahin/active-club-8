@@ -1,50 +1,50 @@
 [
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "After Fazar",
+    "name": "Push-Up",
     "time": 25,
     "age": "20-30 Year",
-    "about": "My study shedule for practice programming. Its tough to manage time for code.",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "about": "My study shedule for daily exercise. Its tough to manage time for exercise.",
+    "img": "https://phantom-marca.unidadeditorial.es/9ddcbd5177449ff4df0e52d93372fae2/f/jpg/assets/multimedia/imagenes/2022/01/29/16434557776404.jpg"
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-    "name": "After Fazar",
-    "time": 25,
-    "age": "20-30 Year",
-    "about": "My study shedule for practice programming. Its tough to manage time for code.",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "name": "Chin-up",
+    "time": 35,
+    "age": "22-30 Year",
+    "about": "My study shedule for daily exercise. Its tough to manage time for exercise.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD6HPOnLkJlD3vj1_eAfU02RrT7C3DkjNt49sDtwXKB2gaIbQKC6HfDUZAod2Yza8vT6k&usqp=CAU"
   },
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-    "name": "After Fazar",
+    "name": "Dumble",
     "time": 25,
-    "age": "20-30 Year",
-    "about": "My study shedule for practice programming. Its tough to manage time for code.",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "age": "18-24 Year",
+    "about": "My study shedule for daily exercise. Its tough to manage time for exercise.",
+    "img": "https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg"
   },
   {
     "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-    "name": "After Fazar",
-    "time": 25,
-    "age": "20-30 Year",
-    "about": "My study shedule for practice programming. Its tough to manage time for code.",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "name": "Straching",
+    "time": 55,
+    "age": "15-30 Year",
+    "about": "My study shedule for daily exercise. Its tough to manage time for exercise.",
+    "img": "https://images.theconversation.com/files/336693/original/file-20200521-102671-12dx6oe.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=320&h=224&fit=crop"
   },
   {
     "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-    "name": "After Fazar",
-    "time": 25,
+    "name": "Compound",
+    "time": 75,
     "age": "20-30 Year",
-    "about": "My study shedule for practice programming. Its tough to manage time for code.",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "about": "My study shedule for daily exercise. Its tough to manage time for exercise.",
+    "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/03/1109-squat2.jpg?quality=86&strip=all"
   },
   {
     "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-    "name": "After Fazar",
-    "time": 25,
-    "age": "20-30 Year",
-    "about": "My study shedule for practice programming. Its tough to manage time for code.",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "name": "Walking",
+    "time": 80,
+    "age": "10-30 Year",
+    "about": "My study shedule for daily exercise. Its tough to manage time for exercise.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVEN14Ru3uL0r-WRV9VBinnOlLqhVBI6tORA&usqp=CAU"
   }
 ]
