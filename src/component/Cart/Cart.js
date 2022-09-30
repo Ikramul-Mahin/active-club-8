@@ -17,8 +17,7 @@ const Cart = (props) => {
     };
     const getBreak = (e) => {
         setBreaks(e.target.innerHTML)
-        console.log(e.target.innerHTML)
-        addToDb(e)
+        addToDb(e.target.innerHTML)
 
     }
 
