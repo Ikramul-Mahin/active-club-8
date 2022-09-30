@@ -3,6 +3,9 @@
     border-radius: 5px;
     margin: 5px;
     padding: 4px;
+    height: 550px;
+
+
 
 }
 
@@ -14,5 +17,6 @@
 @media only screen and (max-width: 968px) {
     .product {
         padding-bottom: 2rem;
+        height: 500px;
     }
 }
