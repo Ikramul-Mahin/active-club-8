@@ -2,7 +2,8 @@ import React from 'react';
 
 const Ques = () => {
     return (
-        <div>
+        <div className='mt-4'>
+            <h1 className='text-underline'>Questions</h1>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">

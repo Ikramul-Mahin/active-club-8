@@ -42,7 +42,7 @@ const Cart = (props) => {
                 <h3>Exercise Details</h3>
 
                 <div className='text-left'>
-                    <h4 className='bg-secondary text-white rounded'>Exercise Time:{time}</h4>
+                    <h4 className='bg-secondary text-white rounded'>Exercise Time:{time}s</h4>
                     <h4 className='bg-secondary text-white rounded'>Break Time:</h4>
 
                     <button className='btn btn-primary'>Activity Completed</button>

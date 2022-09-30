@@ -2,11 +2,17 @@
     border: 2px solid black;
     border-radius: 5px;
     margin: 5px;
-    padding: 5px;
+    padding: 4px;
 
 }
 
 .product img {
     width: 80%;
     height: 50%;
+}
+
+@media only screen and (max-width: 968px) {
+    .product {
+        padding-bottom: 2rem;
+    }
 }

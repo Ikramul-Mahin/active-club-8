@@ -2,10 +2,10 @@ import React from 'react';
 import './Product.css'
 
 const Product = (props) => {
-
-    const { name, time, img, about, age } = props.product
+    const { addToCart, product } = props
+    const { name, time, img, about, age } = product
     return (
-        <div className='product'>
+        <div className='product py-3'>
 
 
             <img src={img} alt="" />
@@ -13,9 +13,9 @@ const Product = (props) => {
             <p className='card-text'>{about}</p>
             <h6>Age:{age}</h6>
             <h6>Time:{time}s</h6>
-            <button className='btn btn-primary w-75'>Add To Cart</button>
-            <div>
 
+            <div className='btn-add'>
+                <button className='btn btn-primary w-75' onClick={() => addToCart(product)}>Add To Cart</button>
             </div>
 
         </div>
