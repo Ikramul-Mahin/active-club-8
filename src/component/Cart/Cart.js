@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { addToDb } from '../../utilities/fakedb';
 
 
 const Cart = (props) => {
@@ -7,26 +8,22 @@ const Cart = (props) => {
     for (const product of cart) {
         time = time + product.time
     }
-
-
+    const [isActive, setIsActive] = useState(false);
     const [breaks, setBreaks] = useState('')
+
+    const handleClick = () => {
+        // 👇️ toggle
+        setIsActive(current => !current);
+    };
     const getBreak = (e) => {
         setBreaks(e.target.innerHTML)
         console.log(e.target.innerHTML)
+        addToDb(e)
 
     }
-    // useEffect(() => {
-    //     fetch('/break.json')
-    //         .then(res => res.json())
-    //         .then(data => setBreaks(data))
-    // }, [])
-
-    // const [break, setBreak]= useState([])
-
 
     return (
         <div className='border border-2 py-4'>
-            <h4>break: {breaks.length}</h4>
             <div className='info'>
                 <img className='pic w-25 img-fluid rounded rounded-circle' src="/person.jpg" alt="" />
                 <div>
@@ -65,7 +62,11 @@ const Cart = (props) => {
                     <h4 className='bg-secondary text-white rounded'>Exercise Time:{time}s</h4>
                     <h4 className='bg-secondary text-white rounded'>Break Time:{breaks}</h4>
 
-                    <button className='btn btn-primary'>Activity Completed</button>
+                    <button style={{
+                        backgroundColor: isActive ? 'green' : '',
+                        color: isActive ? 'white' : '',
+                    }}
+                        onClick={handleClick} className='btn btn-primary'>Activity Completed</button>
                 </div>
 
 

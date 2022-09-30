@@ -6,6 +6,7 @@ import './Products.css'
 const Products = () => {
     const [products, setProducts] = useState([])
     const [cart, setCart] = useState([])
+
     // const [breaks, setBreaks] = useState([])
 
     useEffect(() => {
@@ -21,6 +22,7 @@ const Products = () => {
     const addToCart = (products) => {
         const newCart = [...cart, products]
         setCart(newCart)
+
     }
 
 

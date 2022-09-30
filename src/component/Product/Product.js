@@ -4,6 +4,8 @@ import './Product.css'
 const Product = (props) => {
     const { addToCart, product } = props
     const { name, time, img, about, age } = product
+
+
     return (
         <div className='product py-3'>
 
